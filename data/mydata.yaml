@@ -1,0 +1,23 @@
+#train: C:/Users/xy/Desktop/Work/Dataset/VisDrone/VisDrone2019-DET-train/images  # train images (relative to 'path')  6471 images
+#val: C:/Users/xy/Desktop/Work/Dataset/VisDrone/VisDrone2019-DET-val/images  # val images (relative to 'path')  548 images
+#test: C:/Users/xy/Desktop/Work/Dataset/VisDrone/VisDrone2019-DET-test-dev/images   # test images (optional)  1610 images
+#
+## Classes
+#nc: 10  # number of classes
+#names: [ 'pedestrian', 'people', 'bicycle', 'car', 'van', 'truck', 'tricycle', 'awning-tricycle', 'bus', 'motor' ]
+
+
+
+# train: C:/Users/xy/Desktop/Work/XDUAV-dataset2/train.txt # 2607 images
+# val: C:/Users/xy/Desktop/Work/XDUAV-dataset2/val.txt  #  870 images
+# test: C:/Users/xy/Desktop/Work/XDUAV-dataset2/test.txt #  870 images
+train: ./head_datas/images/train/
+val: ./head_datas/images/train/
+
+# number of classes
+nc: 1
+
+# class names
+#names: ['truck', 'panzer', 'tank', 'SUV', 'cam_net', 'cam_tar']
+# names: ['truck', 'panzer', 'tank', 'SUV', 'cam_net', 'cam_tar']
+names: ['head']
